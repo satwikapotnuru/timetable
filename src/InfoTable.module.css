@@ -1,0 +1,39 @@
+// InfoTable.module.css
+.table-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.table-section {
+  margin-bottom: 40px;
+}
+
+.table-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.table-section label {
+  font-size: 16px;
+}
+
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table-section table th,
+.table-section table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.table-section table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table-section table td p {
+  margin: 0;
+}

@@ -1,0 +1,12 @@
+.hidden {
+  opacity: 0;
+  transform: translateY(
+    20px
+  ); /* Move the section slightly down to give a smooth appearance */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Apply transition effect for smooth appearance */
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

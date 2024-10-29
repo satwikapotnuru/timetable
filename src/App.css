@@ -1,0 +1,169 @@
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="number"],
+form input[type="text"],
+form select {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Sectionrendering.css */
+.sectionrendering {
+  margin-bottom: 20px;
+}
+
+.sectionrendering label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.sectionrendering input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sectionrendering button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sectionrendering button:hover {
+  background-color: #0056b3;
+}
+
+/* Subjectstable.css */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+/* Facultytable.css */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+/* Facultyrendering.css */
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form select {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.brachContainer {
+  display: flex;
+  height: calc(100vh - 110px);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1ab2f8;
+}
+
+.brachForm {
+  display: flex;
+  flex-direction: column;
+  width: min(400px, 50%);
+  align-items: center;
+  justify-content: center;
+}
+
+.electiveForm {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.showTable {
+  overflow-y: scroll;
+  justify-content: start;
+}
+
+.brachForm > div {
+  margin: 5px;
+}
+
+.brachForm > div > button {
+  padding: 5px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}

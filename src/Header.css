@@ -1,0 +1,65 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  margin: 0;
+}
+.logo {
+  width: 40px; /* Set the width of the image */
+  height: 40px; /* Set the height of the image */
+  border-radius: 50%; /* Make the image circular */
+  background-color: #ccc; /* Set a background color */
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #ff9900; /* Change color on hover/active */
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  z-index: 1;
+}
+
+.dropdown li {
+  padding: 10px;
+}
+
+.dropdown li:hover {
+  background-color: #555;
+}
+
+.dropdown li a {
+  color: #fff;
+}
+
+.nav-links li:hover .dropdown {
+  display: block;
+}
